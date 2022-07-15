@@ -1,0 +1,54 @@
+* {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    /*-webkit-font-smoothing: antialiased;*/
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    /* Change values 👇 to experiment*/
+    align-items: center;
+}
+
+.ant-menu-item-selected {
+    background-color: #CFD4ED !important;
+}
+
+.ant-menu-inline .ant-menu-selected::after, .ant-menu-inline .ant-menu-item-selected::after {
+    opacity: 0 !important;
+}
+
+.ant-picker-input > input:placeholder-shown {
+    font-family: 'Rubik', sans-serif !important;
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    color: #8A8A8A !important;
+}
+
+.ant-select-selection-placeholder {
+    color: red;
+}
+
+.custom .ant-collapse-content-box {
+    padding: 0 !important;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+    padding-left: 0 !important;
+}
+
+.ant-tabs-ink-bar {
+    height: 5px;
+    background: red !important;
+}
+
+/*.ant-steps-item-icon {*/
+/*    width: 3em !important;*/
+/*    height: 3em !important;*/
+/*    display: inline-flex !important;*/
+/*    justify-content: center !important;*/
+/*    align-items: center !important;*/
+/*}*/
+
